@@ -111,6 +111,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
 	font-family: 'Open Sans', sans-serif;
+	text-align: right;
 }
 
 a{
@@ -762,7 +763,7 @@ img{
 
 .main-header .header-upper .logo-outer{
 	position:relative;
-	float: left;
+	float: right;
 	z-index:25;
 	padding: 23px 0px 13px;
 	-webkit-transition:all 300ms ease;
@@ -884,7 +885,7 @@ img{
 
 .main-menu .navigation > li{
 	position:relative;
-	float:left;
+	float:right;
 	margin-right: 40px;
 	-webkit-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
@@ -923,7 +924,7 @@ img{
 
 .main-menu .navigation > li > ul{
 	position:absolute;
-	left:0px;
+	right:0px;
 	top:100%;
 	width:240px;
 	padding:0px 0px;
@@ -964,7 +965,7 @@ img{
 	font-weight:500;
 	font-size:15px;
 	color:#222222;
-	text-align:left;
+	text-align:right;
 	text-transform:capitalize;
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
@@ -1790,14 +1791,14 @@ img{
 	line-height: 1.2em;
 	color: #292929;
 	font-weight: 700;
-	padding-right:60px;
+	padding-left:60px;
 	display:inline-block;
 }
 
-.sec-title-two h2:before{
+.sec-title-two h2:after{
 	position:absolute;
 	content:'';
-	right:0px;
+	left:0px;
 	bottom:8px;
 	width:40px;
 	height:2px;
@@ -1823,6 +1824,7 @@ img{
 
 .main-slider{
 	position: relative;
+	text-align: right;
 }
 
 .main-slider.style-two{
@@ -1838,6 +1840,7 @@ img{
 	font-weight: 700;
 	line-height: 1.14em;
 	text-transform:capitalize;
+	text-align: right;
 }
 
 .main-slider .text{
@@ -1861,7 +1864,7 @@ img{
 
 .main-slider .link-box .theme-btn{
 	position: relative;
-	float: left;
+	float: right;
 	margin-right: 35px;
 }
 
