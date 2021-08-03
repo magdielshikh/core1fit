@@ -20,8 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bc7c3ae-9cf0-4310-ae9d-c7497a43afc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fonts/subset-DINNextLTW23-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/subset-DINNextLTW23-Medium.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627980840302</updated>
-      <workItem from="1627980842430" duration="1985000" />
+      <workItem from="1627980842430" duration="2444000" />
     </task>
     <servers />
   </component>
