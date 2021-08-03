@@ -58,9 +58,16 @@
  ***/
 
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Rufina:400,700');
-
+@font-face {
+	font-family: 'DIN NEXTTM ARABIC';
+	src: url('../fonts/subset-DINNextLTW23-Medium.woff2') format('woff2'),
+	url('../fonts/subset-DINNextLTW23-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
 /* font-family: 'Poppins', sans-serif;
-font-family: 'Rufina', serif;
+font-family: 'DIN NEXTTM ARABIC';
 font-family: 'Open Sans', sans-serif;
 font-family: 'Playfair Display', serif;
 font-family: 'Lato', sans-serif; */
@@ -110,7 +117,7 @@ body {
 	background:#ffffff;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'DIN NEXTTM ARABIC';
 	text-align: right;
 }
 
@@ -133,7 +140,7 @@ h1,h2,h3,h4,h5,h6 {
 	margin:0px;
 	background:none;
 	line-height:1.2em;
-	font-family: 'Rufina', serif;
+	font-family: 'DIN NEXTTM ARABIC';
 	letter-spacing: -0.02em;
 }
 
@@ -221,7 +228,7 @@ ul,li{
 	border:2px solid #f4745e;
 	background-color: #f4745e;
 	text-transform: capitalize;
-	font-family: 'Rufina', serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .btn-style-one:hover{
@@ -243,7 +250,7 @@ ul,li{
 	overflow: hidden;
 	background-color: #ffffff;
 	text-transform: capitalize;
-	font-family: 'Rufina', serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .btn-style-two:hover{
@@ -265,7 +272,7 @@ ul,li{
 	border:2px solid #1c1e2a;
 	background-color: #1c1e2a;
 	text-transform: capitalize;
-	font-family: 'Rufina', serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .btn-style-three:hover{
@@ -287,7 +294,7 @@ ul,li{
 	border:2px solid #0e2a4e;
 	background-color: #0e2a4e;
 	text-transform: capitalize;
-	font-family: 'Rufina', serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .btn-style-four:hover{
@@ -309,7 +316,7 @@ ul,li{
 	border:1px solid #0e2a4e;
 	background: none;
 	text-transform: capitalize;
-	font-family: 'Rufina', serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .btn-style-five:hover{
@@ -2040,7 +2047,7 @@ img{
 	font-size:22px;
 	line-height:1.4em;
 	margin-top:20px;
-	font-family: 'Rufina', serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .about-section .content-column .inner-column .text{
@@ -2555,7 +2562,7 @@ img{
 	color:#ffffff;
 	line-height:1.5em;
 	font-style:italic;
-	font-family: 'Rufina', serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .testimonial-block .inner-box .content-column .designation{
@@ -2564,7 +2571,7 @@ img{
 	font-size:16px;
 	font-style:italic;
 	margin-top:20px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .testimonial-block .inner-box .image-column{
@@ -2957,7 +2964,7 @@ img{
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
 	transition:all 300ms ease;	
-	font-family: 'Rufina', serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .news-block .inner-box .lower-content .read-more .arrow{
@@ -3160,7 +3167,7 @@ img{
 	font-size:24px;
 	font-weight:400;
 	margin-top:10px;
-	font-family: 'Rufina', serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .call-to-action-section-two .button-column{
@@ -3374,7 +3381,7 @@ img{
 	line-height:1.4em;
 	margin-top:20px;
 	margin-bottom:20px;
-	font-family: 'Rufina', serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .clients-section .content-column .text{
@@ -3558,7 +3565,7 @@ img{
 	line-height:1.6em;
 	margin-top:24px;
 	margin-bottom:40px;
-	font-family: 'Rufina', serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 /*** 
@@ -3634,7 +3641,7 @@ img{
 	font-size:16px;
 	color:#ffffff;
 	line-height:1.8em;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .testimonial-block-two .inner-box .lower-box{
@@ -3764,7 +3771,7 @@ img{
 	margin-top:4px;
 	display:inline-block;
 	text-decoration:underline;
-	font-family: 'Rufina', serif;
+	font-family: 'DIN NEXTTM ARABIC';
 	transition:all 300ms ease;
 	-webkit-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
@@ -4060,7 +4067,7 @@ img{
 	padding-right:65px;
 	display:inline-block;
 	font-weight:400;
-	font-family: 'Rufina', serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .about-video-section .content .title:before{
@@ -4098,7 +4105,7 @@ img{
 	-ms-transition: all 300ms ease;
 	-o-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
-	font-family: 'Rufina', serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .about-video-section .content .play-btn .icon{
@@ -4346,7 +4353,7 @@ img{
 	font-size:22px;
 	line-height:1.4em;
 	margin-bottom:45px;
-	font-family: 'Rufina', serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .about-gym-section .content-column .inner-column .text{
@@ -4621,7 +4628,7 @@ img{
 	margin-top:30px;
 	line-height:1.3em;
 	margin-bottom:60px;
-	font-family: 'Rufina', serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .error-section .theme-btn{
@@ -4932,7 +4939,7 @@ img{
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .styled-pagination li a:hover,
@@ -5450,7 +5457,7 @@ img{
 	color:#181e44;
 	line-height:16px;
 	text-transform:capitalize;
-	font-family: 'Rufina', serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .sidebar-page-container .comments-area .comment-box .text{
@@ -5632,7 +5639,7 @@ img{
 	margin-top:30px;
 	margin-bottom:40px;
 	display:inline-block;
-	font-family: 'Rufina', serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .comming-soon .content .content-inner .text span{
@@ -6366,7 +6373,7 @@ img{
 	line-height:1.7em;
 	font-size:17px;	
 	color:#797979;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .accordion-box .block .content p:last-child{
@@ -6463,7 +6470,7 @@ img{
 	font-size:16px;
 	font-style:italic;
 	margin-top:20px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .testimonial-block-three .inner-box .image-column{
@@ -6689,7 +6696,7 @@ img{
 	-webkit-transition:all 0.3s ease;
 	-ms-transition:all 0.3s ease;
 	-o-transition:all 0.3s ease;
-	font-family: 'Rufina', serif;
+	font-family: 'DIN NEXTTM ARABIC';
 	box-shadow:0px 5px 25px rgba(0,0,0,0.18);
 }
 
@@ -7028,7 +7035,7 @@ img{
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
-	font-family: 'Rufina', serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .project-page-section .mixitup-gallery .filters li.active,
@@ -7276,7 +7283,7 @@ img{
 	font-size:18px;
 	line-height:1.7em;
 	margin-bottom:38px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .products-section .content-column .inner-column .theme-btn{
@@ -7925,7 +7932,7 @@ img{
 	color:#0e2a4e;
 	text-transform:capitalize;
 	border-right:1px solid #ebebeb;
-	font-family: 'Rufina', serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .cart-table thead tr th .fa{
@@ -7986,7 +7993,7 @@ img{
 	font-weight:400;
 	color:#797979;
 	font-size:17px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .cart-table tbody tr .remove-btn{
@@ -8025,7 +8032,7 @@ img{
 
 .cart-table tbody tr .total-price{
 	font-weight:600;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .cart-table tbody tr td:last-child{
@@ -8107,7 +8114,7 @@ img{
 	font-weight:400;
 	border-color:#242424;
 	background-color:#242424;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .cart-section .btn-style-two:hover{
@@ -8204,7 +8211,7 @@ img{
 	font-size:20px;
 	font-weight:600;
 	border:1px solid #ebebeb;
-	font-family: 'Rufina', serif;
+	font-family: 'DIN NEXTTM ARABIC';
 }
 
 .checkout-page .default-links li a{
