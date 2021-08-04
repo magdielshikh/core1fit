@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bc7c3ae-9cf0-4310-ae9d-c7497a43afc5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627980840302</updated>
-      <workItem from="1627980842430" duration="2444000" />
+      <workItem from="1627980842430" duration="4925000" />
     </task>
     <servers />
   </component>
@@ -83,5 +84,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="125" width="1240" height="616" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1627985689753">
+      <screen x="0" y="25" width="1440" height="816" />
+    </state>
+    <state x="100" y="125" width="1240" height="616" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1440.816@0.25.1440.816" timestamp="1627985689753" />
   </component>
 </project>

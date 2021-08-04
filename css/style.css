@@ -1,4 +1,3 @@
-/* M.V Richard Health Coach - Health and Fitness Coach HTML Template  */
 
 /************ TABLE OF CONTENTS ***************
 1. Fonts
@@ -56,21 +55,22 @@
 ====================================================================
 
  ***/
-
+/*@font-face {*/
+/*	font-family: 'DIN NEXTTM ARABIC' , sans-serif;*/
+/*	src: url('../fonts/subset-DINNextLTW23-Medium.woff2') format('woff2'),*/
+/*	url('../fonts/subset-DINNextLTW23-Medium.woff') format('woff');*/
+/*	font-weight: 500;*/
+/*	font-style: normal;*/
+/*	font-display: swap;*/
+/*}*/
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Rufina:400,700');
-@font-face {
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
-	src: url('../fonts/subset-DINNextLTW23-Medium.woff2') format('woff2'),
-	url('../fonts/subset-DINNextLTW23-Medium.woff') format('woff');
-	font-weight: 500;
-	font-style: normal;
-	font-display: swap;
-}
+
 /* font-family: 'DIN NEXTTM ARABIC' , sans-serif;
 font-family: 'DIN NEXTTM ARABIC' , sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Playfair Display', serif;
-font-family: 'Lato', sans-serif; */
+font-family: 'Tajawal', sans-serif; */
 
 @import url('pe-icon-7-stroke.css');
 @import url('simple-line-icons.css');
@@ -117,7 +117,7 @@ body {
 	background:#ffffff;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 	text-align: right;
 }
 
@@ -140,7 +140,7 @@ h1,h2,h3,h4,h5,h6 {
 	margin:0px;
 	background:none;
 	line-height:1.2em;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 	letter-spacing: -0.02em;
 }
 
@@ -200,7 +200,7 @@ ul,li{
 	-ms-transition:all 0.3s ease;
 	-o-transition:all 0.3s ease;
 	transition:all 0.3s ease;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .theme-btn i{
@@ -228,7 +228,7 @@ ul,li{
 	border:2px solid #f4745e;
 	background-color: #f4745e;
 	text-transform: capitalize;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .btn-style-one:hover{
@@ -250,7 +250,7 @@ ul,li{
 	overflow: hidden;
 	background-color: #ffffff;
 	text-transform: capitalize;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .btn-style-two:hover{
@@ -272,7 +272,7 @@ ul,li{
 	border:2px solid #1c1e2a;
 	background-color: #1c1e2a;
 	text-transform: capitalize;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .btn-style-three:hover{
@@ -294,7 +294,7 @@ ul,li{
 	border:2px solid #0e2a4e;
 	background-color: #0e2a4e;
 	text-transform: capitalize;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .btn-style-four:hover{
@@ -316,7 +316,7 @@ ul,li{
 	border:1px solid #0e2a4e;
 	background: none;
 	text-transform: capitalize;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .btn-style-five:hover{
@@ -339,7 +339,7 @@ ul,li{
 	background: none;
 	border-radius:50px;
 	text-transform: capitalize;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .btn-style-six:hover{
@@ -624,7 +624,7 @@ img{
 
 .main-header .header-top .top-left .links li{
 	position:relative;
-	float:left;
+	float:right;
 	margin-right:28px;
 	line-height:1em;
 	color:#ababab;
@@ -659,7 +659,7 @@ img{
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
 	transition:all 500ms ease;	
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .main-header .header-top .top-left .links li:first-child a{
@@ -823,7 +823,7 @@ img{
 	font-size:22px;
 	font-weight:600;
 	margin-top:6px;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .main-header .header-upper .upper-right .number-box h3 a{
@@ -877,7 +877,7 @@ img{
 
 .main-menu{
 	position:relative;
-	float:left;
+	float:right;
 }
 
 .main-menu .navbar-collapse{
@@ -887,13 +887,13 @@ img{
 .main-menu .navigation{
 	position:relative;
 	margin:0px;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .main-menu .navigation > li{
 	position:relative;
 	float:right;
-	margin-right: 40px;
+	margin-left: 40px;
 	-webkit-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
@@ -922,6 +922,7 @@ img{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	transition:all 300ms ease;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .main-menu .navigation > li:hover > a,
@@ -1101,12 +1102,12 @@ img{
 
 .main-header .header-lower .outer-box{
 	position: relative;
-	float: right;
+	float: left;
 }
 
 .main-header .header-lower .link-box{
 	position:relative;
-	float:right;
+	float:left;
 	padding:20px 0px;
 }
 
@@ -1115,14 +1116,14 @@ img{
 	color:#f67a65;
 	font-size:17px;
 	font-weight:500;
-	padding-left:25px;
+	padding-right:25px;
 	-webkit-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	transition:all 300ms ease;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
-	border-left:1px solid rgba(255,255,255,0.30);
+	font-family: 'Poppins', sans-serif;
+	border-right:1px solid rgba(255,255,255,0.30);
 }
 
 .main-header .header-lower .enquiry-btn:hover{
@@ -1798,14 +1799,14 @@ img{
 	line-height: 1.2em;
 	color: #292929;
 	font-weight: 700;
-	padding-left:60px;
+	padding-right:60px;
 	display:inline-block;
 }
 
-.sec-title-two h2:after{
+.sec-title-two h2:before{
 	position:absolute;
 	content:'';
-	left:0px;
+	right:0px;
 	bottom:8px;
 	width:40px;
 	height:2px;
@@ -1831,7 +1832,6 @@ img{
 
 .main-slider{
 	position: relative;
-	text-align: right;
 }
 
 .main-slider.style-two{
@@ -1847,7 +1847,6 @@ img{
 	font-weight: 700;
 	line-height: 1.14em;
 	text-transform:capitalize;
-	text-align: right;
 }
 
 .main-slider .text{
@@ -1871,7 +1870,7 @@ img{
 
 .main-slider .link-box .theme-btn{
 	position: relative;
-	float: right;
+	float: left;
 	margin-right: 35px;
 }
 
@@ -2047,7 +2046,7 @@ img{
 	font-size:22px;
 	line-height:1.4em;
 	margin-top:20px;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .about-section .content-column .inner-column .text{
@@ -2468,7 +2467,7 @@ img{
 	font-size:18px;
 	font-weight:600;
 	line-height:1.3em;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .team-block .inner-box .lower-content h3 a{
@@ -2562,7 +2561,7 @@ img{
 	color:#ffffff;
 	line-height:1.5em;
 	font-style:italic;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .testimonial-block .inner-box .content-column .designation{
@@ -2571,7 +2570,7 @@ img{
 	font-size:16px;
 	font-style:italic;
 	margin-top:20px;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .testimonial-block .inner-box .image-column{
@@ -2964,7 +2963,7 @@ img{
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
 	transition:all 300ms ease;	
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .news-block .inner-box .lower-content .read-more .arrow{
@@ -3167,7 +3166,7 @@ img{
 	font-size:24px;
 	font-weight:400;
 	margin-top:10px;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .call-to-action-section-two .button-column{
@@ -3381,7 +3380,7 @@ img{
 	line-height:1.4em;
 	margin-top:20px;
 	margin-bottom:20px;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .clients-section .content-column .text{
@@ -3565,7 +3564,7 @@ img{
 	line-height:1.6em;
 	margin-top:24px;
 	margin-bottom:40px;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 /*** 
@@ -3641,7 +3640,7 @@ img{
 	font-size:16px;
 	color:#ffffff;
 	line-height:1.8em;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .testimonial-block-two .inner-box .lower-box{
@@ -3771,7 +3770,7 @@ img{
 	margin-top:4px;
 	display:inline-block;
 	text-decoration:underline;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 	transition:all 300ms ease;
 	-webkit-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
@@ -3922,7 +3921,7 @@ img{
 	font-size:30px;
 	font-weight:600;
 	margin-bottom:22px;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .call-back-section .title-column .text{
@@ -4067,7 +4066,7 @@ img{
 	padding-right:65px;
 	display:inline-block;
 	font-weight:400;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .about-video-section .content .title:before{
@@ -4088,7 +4087,7 @@ img{
 	margin-top:20px;
 	font-weight:600;
 	letter-spacing:1px;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .about-video-section .content .play-btn{
@@ -4105,7 +4104,7 @@ img{
 	-ms-transition: all 300ms ease;
 	-o-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .about-video-section .content .play-btn .icon{
@@ -4203,7 +4202,7 @@ img{
 	font-weight:600;
 	line-height:1.4em;
 	margin-bottom:8px;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .subscribe-section .inner-container .title-column .text{
@@ -4265,7 +4264,7 @@ img{
 	-moz-transition:all 300ms ease;
 	transition:all 300ms ease;
 	border-radius:50px;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .subscribe-section .subscribe-form .form-group input[type="submit"],
@@ -4353,7 +4352,7 @@ img{
 	font-size:22px;
 	line-height:1.4em;
 	margin-bottom:45px;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .about-gym-section .content-column .inner-column .text{
@@ -4505,7 +4504,7 @@ img{
 	font-size:22px;
 	font-weight:500;
 	line-height:1.3em;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .feature-block-three .inner-box .text{
@@ -4551,7 +4550,7 @@ img{
 	line-height:1.4em;
 	font-weight:300;
 	margin-bottom:25px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .about-section-two .text{
@@ -4604,7 +4603,7 @@ img{
 	font-weight:700;
 	line-height:1em;
 	margin-bottom:10px;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .error-section h2{
@@ -4628,7 +4627,7 @@ img{
 	margin-top:30px;
 	line-height:1.3em;
 	margin-bottom:60px;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .error-section .theme-btn{
@@ -4939,7 +4938,7 @@ img{
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .styled-pagination li a:hover,
@@ -5300,7 +5299,7 @@ img{
 .blog-single .inner-box .lower-content .lower-box h3 a{
 	position:relative;
 	color:#242424;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Poppins', sans-serif;
 	transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
 	-webkit-transition:all 0.3s ease;
@@ -5457,7 +5456,7 @@ img{
 	color:#181e44;
 	line-height:16px;
 	text-transform:capitalize;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .sidebar-page-container .comments-area .comment-box .text{
@@ -5639,7 +5638,7 @@ img{
 	margin-top:30px;
 	margin-bottom:40px;
 	display:inline-block;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .comming-soon .content .content-inner .text span{
@@ -5847,7 +5846,7 @@ img{
 	font-size:24px;
 	font-weight:500;
 	margin-bottom:22px;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .contact-page-section .info-column .text{
@@ -6309,7 +6308,7 @@ img{
 	-o-transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .accordion-box .block .icon-outer{
@@ -6373,7 +6372,7 @@ img{
 	line-height:1.7em;
 	font-size:17px;	
 	color:#797979;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .accordion-box .block .content p:last-child{
@@ -6470,7 +6469,7 @@ img{
 	font-size:16px;
 	font-style:italic;
 	margin-top:20px;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .testimonial-block-three .inner-box .image-column{
@@ -6696,7 +6695,7 @@ img{
 	-webkit-transition:all 0.3s ease;
 	-ms-transition:all 0.3s ease;
 	-o-transition:all 0.3s ease;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 	box-shadow:0px 5px 25px rgba(0,0,0,0.18);
 }
 
@@ -7035,7 +7034,7 @@ img{
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .project-page-section .mixitup-gallery .filters li.active,
@@ -7283,7 +7282,7 @@ img{
 	font-size:18px;
 	line-height:1.7em;
 	margin-bottom:38px;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .products-section .content-column .inner-column .theme-btn{
@@ -7435,7 +7434,7 @@ img{
 	font-size:18px;
 	font-weight:500;
 	margin-bottom:30px;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .product-details .basic-details .price span{
@@ -7443,7 +7442,7 @@ img{
 	font-size:22px;
 	color:#242424;
 	margin-left:10px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .product-details .basic-details .quantity-spinner,
@@ -7932,7 +7931,7 @@ img{
 	color:#0e2a4e;
 	text-transform:capitalize;
 	border-right:1px solid #ebebeb;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .cart-table thead tr th .fa{
@@ -7993,7 +7992,7 @@ img{
 	font-weight:400;
 	color:#797979;
 	font-size:17px;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .cart-table tbody tr .remove-btn{
@@ -8032,7 +8031,7 @@ img{
 
 .cart-table tbody tr .total-price{
 	font-weight:600;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .cart-table tbody tr td:last-child{
@@ -8044,7 +8043,7 @@ img{
 	position:relative;
 	font-size:17px;
 	color:#797979;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .cart-table tbody tr td .quantity-spinner{
@@ -8114,7 +8113,7 @@ img{
 	font-weight:400;
 	border-color:#242424;
 	background-color:#242424;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .cart-section .btn-style-two:hover{
@@ -8149,7 +8148,7 @@ img{
 	font-weight:600;
 	color:#242424;
 	font-size:18px;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .cart-section .totals-table li:last-child{
@@ -8211,7 +8210,7 @@ img{
 	font-size:20px;
 	font-weight:600;
 	border:1px solid #ebebeb;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .checkout-page .default-links li a{
@@ -8337,7 +8336,7 @@ img{
 	font-weight:500;
 	margin-bottom:12px;
 	text-transform:uppercase;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .shop-order-box .order-list li span{
@@ -8391,7 +8390,7 @@ img{
 	display: inline-block;
 	color:#797979;
 	font-size:15px;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .checkout-page .payment-options li .radio-option input[type="radio"]{
@@ -8409,7 +8408,7 @@ img{
 	font-weight:600;
 	margin-left:15px;
 	color:#f67a65;
-	font-family: 'DIN NEXTTM ARABIC' , sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .checkout-page .payment-options li .radio-option label .small-text{
