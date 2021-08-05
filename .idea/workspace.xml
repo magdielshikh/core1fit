@@ -65,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1627980840302</updated>
       <workItem from="1627980842430" duration="6194000" />
+      <workItem from="1628068797646" duration="439000" />
     </task>
     <servers />
   </component>
@@ -81,15 +82,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="125" width="1240" height="616" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1627985689753">
       <screen x="0" y="25" width="1440" height="816" />
     </state>
     <state x="100" y="125" width="1240" height="616" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1440.816@0.25.1440.816" timestamp="1627985689753" />
-    <state x="421" y="188" width="597" height="490" key="find.popup" timestamp="1628068276307">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state x="421" y="177" width="597" height="490" key="find.popup" timestamp="1628068800918">
+      <screen x="0" y="25" width="1440" height="816" />
     </state>
+    <state x="421" y="177" width="597" height="490" key="find.popup/0.25.1440.816/1440.25.1920.1055@0.25.1440.816" timestamp="1628068800918" />
     <state x="421" y="188" width="597" height="490" key="find.popup/0.25.1440.875/1440.25.1920.996@0.25.1440.875" timestamp="1628068276307" />
   </component>
 </project>
