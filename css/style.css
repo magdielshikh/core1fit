@@ -2348,7 +2348,7 @@ img{
 	color:#ffffff;
 	font-weight:400;
 	font-size:22px;
-	font-style:italic;
+	font-style:inherit;
 	line-height:1.6em;
 	max-width:840px;
 	margin-top:20px;
@@ -2560,7 +2560,7 @@ img{
 	font-size:22px;
 	color:#ffffff;
 	line-height:1.5em;
-	font-style:italic;
+	font-style:inherit;
 	font-family: 'Tajawal', sans-serif;
 }
 
@@ -2570,7 +2570,7 @@ img{
 	font-size:16px;
 	font-style:italic;
 	margin-top:20px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .testimonial-block .inner-box .image-column{
@@ -2776,7 +2776,7 @@ img{
 	border-radius:5px;
 	padding:20px 20px;
 	display:block;
-	font-style:italic;
+	font-style:inherit;
 	margin-top:30px;
 	background-color:#b01429;
 }
@@ -3640,7 +3640,7 @@ img{
 	font-size:16px;
 	color:#ffffff;
 	line-height:1.8em;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .testimonial-block-two .inner-box .lower-box{
@@ -4938,7 +4938,7 @@ img{
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .styled-pagination li a:hover,
@@ -6469,7 +6469,7 @@ img{
 	font-size:16px;
 	font-style:italic;
 	margin-top:20px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .testimonial-block-three .inner-box .image-column{
@@ -8031,7 +8031,7 @@ img{
 
 .cart-table tbody tr .total-price{
 	font-weight:600;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .cart-table tbody tr td:last-child{
@@ -8113,7 +8113,7 @@ img{
 	font-weight:400;
 	border-color:#242424;
 	background-color:#242424;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .cart-section .btn-style-two:hover{
