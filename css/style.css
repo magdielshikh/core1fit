@@ -339,7 +339,7 @@ ul,li{
 	background: none;
 	border-radius:50px;
 	text-transform: capitalize;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .btn-style-six:hover{
@@ -550,7 +550,7 @@ img{
 	text-align:center;
 	z-index:100;
 	cursor:pointer;
-	background:#1b1a1c;
+	background:#11539a;
 	display:none;
 	border-radius: 0;
 	-webkit-transition:all 300ms ease;
@@ -659,7 +659,7 @@ img{
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
 	transition:all 500ms ease;	
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .main-header .header-top .top-left .links li:first-child a{
@@ -823,7 +823,7 @@ img{
 	font-size:22px;
 	font-weight:600;
 	margin-top:6px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .main-header .header-upper .upper-right .number-box h3 a{
@@ -887,7 +887,7 @@ img{
 .main-menu .navigation{
 	position:relative;
 	margin:0px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .main-menu .navigation > li{
@@ -909,9 +909,9 @@ img{
 	position:relative;
 	display:block;
 	text-align:center;
-	font-size:17px;
+	font-size:18px;
 	line-height:35px;
-	font-weight:500;
+	font-weight:700;
 	opacity:1;
 	color:#ffffff;
 	padding: 0px;
@@ -1122,7 +1122,7 @@ img{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	transition:all 300ms ease;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 	border-right:1px solid rgba(255,255,255,0.30);
 }
 
@@ -1842,9 +1842,9 @@ img{
 .main-slider h2{
 	position: relative;
 	display: block;
-	font-size: 62px;
+	font-size: 50px;
 	color: #ffffff;
-	font-weight: 700;
+	font-weight: 600;
 	line-height: 1.14em;
 	text-transform:capitalize;
 }
@@ -2348,7 +2348,7 @@ img{
 	color:#ffffff;
 	font-weight:400;
 	font-size:22px;
-	font-style:italic;
+	font-style:inherit;
 	line-height:1.6em;
 	max-width:840px;
 	margin-top:20px;
@@ -2467,7 +2467,7 @@ img{
 	font-size:18px;
 	font-weight:600;
 	line-height:1.3em;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .team-block .inner-box .lower-content h3 a{
@@ -2478,6 +2478,7 @@ img{
 	-ms-transition: all 300ms ease;
 	-o-transition: all 300ms ease;
 	transition: all 300ms ease;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .team-block .inner-box .lower-content h3 a:hover{
@@ -2560,7 +2561,7 @@ img{
 	font-size:22px;
 	color:#ffffff;
 	line-height:1.5em;
-	font-style:italic;
+	font-style:inherit;
 	font-family: 'Tajawal', sans-serif;
 }
 
@@ -2570,7 +2571,7 @@ img{
 	font-size:16px;
 	font-style:italic;
 	margin-top:20px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .testimonial-block .inner-box .image-column{
@@ -2632,7 +2633,7 @@ img{
 	width:52px;
 	height:52px;
 	text-align:center;
-	background:#1c1e2a;
+	background:#11539a;
 	border-radius:50%;
 	font-weight:700;
 	-webkit-transition:all 300ms ease;
@@ -2776,7 +2777,7 @@ img{
 	border-radius:5px;
 	padding:20px 20px;
 	display:block;
-	font-style:italic;
+	font-style:inherit;
 	margin-top:30px;
 	background-color:#b01429;
 }
@@ -3640,7 +3641,7 @@ img{
 	font-size:16px;
 	color:#ffffff;
 	line-height:1.8em;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .testimonial-block-two .inner-box .lower-box{
@@ -3921,7 +3922,7 @@ img{
 	font-size:30px;
 	font-weight:600;
 	margin-bottom:22px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .call-back-section .title-column .text{
@@ -4087,7 +4088,7 @@ img{
 	margin-top:20px;
 	font-weight:600;
 	letter-spacing:1px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .about-video-section .content .play-btn{
@@ -4264,7 +4265,7 @@ img{
 	-moz-transition:all 300ms ease;
 	transition:all 300ms ease;
 	border-radius:50px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .subscribe-section .subscribe-form .form-group input[type="submit"],
@@ -4504,7 +4505,7 @@ img{
 	font-size:22px;
 	font-weight:500;
 	line-height:1.3em;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .feature-block-three .inner-box .text{
@@ -4603,7 +4604,7 @@ img{
 	font-weight:700;
 	line-height:1em;
 	margin-bottom:10px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .error-section h2{
@@ -4938,7 +4939,7 @@ img{
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .styled-pagination li a:hover,
@@ -5299,7 +5300,7 @@ img{
 .blog-single .inner-box .lower-content .lower-box h3 a{
 	position:relative;
 	color:#242424;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 	transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
 	-webkit-transition:all 0.3s ease;
@@ -5846,7 +5847,7 @@ img{
 	font-size:24px;
 	font-weight:500;
 	margin-bottom:22px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .contact-page-section .info-column .text{
@@ -6308,7 +6309,7 @@ img{
 	-o-transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .accordion-box .block .icon-outer{
@@ -6467,9 +6468,9 @@ img{
 	position:relative;
 	color:#0e2a4e;
 	font-size:16px;
-	font-style:italic;
+	font-style:inherit;
 	margin-top:20px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .testimonial-block-three .inner-box .image-column{
@@ -7434,7 +7435,7 @@ img{
 	font-size:18px;
 	font-weight:500;
 	margin-bottom:30px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .product-details .basic-details .price span{
@@ -8031,7 +8032,7 @@ img{
 
 .cart-table tbody tr .total-price{
 	font-weight:600;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .cart-table tbody tr td:last-child{
@@ -8113,7 +8114,7 @@ img{
 	font-weight:400;
 	border-color:#242424;
 	background-color:#242424;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .cart-section .btn-style-two:hover{
@@ -8148,7 +8149,7 @@ img{
 	font-weight:600;
 	color:#242424;
 	font-size:18px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .cart-section .totals-table li:last-child{
@@ -8336,7 +8337,7 @@ img{
 	font-weight:500;
 	margin-bottom:12px;
 	text-transform:uppercase;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .shop-order-box .order-list li span{
@@ -8390,7 +8391,7 @@ img{
 	display: inline-block;
 	color:#797979;
 	font-size:15px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .checkout-page .payment-options li .radio-option input[type="radio"]{
@@ -8408,7 +8409,7 @@ img{
 	font-weight:600;
 	margin-left:15px;
 	color:#b01429;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 .checkout-page .payment-options li .radio-option label .small-text{
