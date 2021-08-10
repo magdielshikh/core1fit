@@ -2520,7 +2520,7 @@ img{
 	right:0px;
 	top:0px;
 	bottom:0px;
-	background-color:rgb(137 7 203 / 97%);
+	background-color:rgb(60 192 238);
 }
 
 .testimonial-block{
@@ -8463,4 +8463,11 @@ img{
 	font-weight:500;
 	font-size:15px;
 	padding:7px 32px;
+}
+/*sameh css*/
+.read-more-1{
+	margin-top: 10px;
+}
+.left-button{
+	float: left;
 }
